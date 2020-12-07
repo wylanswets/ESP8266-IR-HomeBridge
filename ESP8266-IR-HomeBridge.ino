@@ -1,12 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WebServer.h>
-#include <ESP8266mDNS.h>
 #include <ArduinoJson.h>
 #include <Arduino.h>
 #include <IRremoteESP8266.h>
 #include <IRsend.h>
-#include <EEPROM.h>
 
 const char* ssid = "your_wifi_ssid";
 const char* password = "your_wifi_password";
